@@ -1,0 +1,196 @@
+body{
+    height: 100%;
+}
+.bg{
+    background-image: linear-gradient(to bottom right,#CD85FF, #B6C3FF, #FDC3E6,#FFEEBD,#CD85FF);
+}
+.image{
+    height: 250px;
+    width:250px;
+    margin:20px;
+}
+.name{
+    position: absolute;
+    display: inline;
+    right: 40;
+    text-align: center;
+    margin-left: 70px;
+    font-size: 70px;
+    font-family: "Bagel Fat One", "Serif";
+    color: #003C6B;
+}
+.links{
+    height: 150px;
+    width: 300px; 
+    display:block;
+}
+.link{
+    text-align: center;
+    padding: 10px;
+    font-family: "Bagel Fat One", "Serif";
+    font-size: 16px;
+    border: 1px solid #E19CB5;
+    border-radius: 10px;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.tech-stack{
+    background-color: #FFFBC3;
+}
+.certificates{
+    background-color: #CED0FF;
+}
+.projects{
+    background-color: #D6E7F7;
+}
+.contact-me-note{
+    height: 200px;
+    width: 200px; 
+    position: absolute;
+    top: 250px;
+    left: 350px;
+    background-color: #F6BAD0;
+}
+.contact-me-note-back{
+    height: 200px;
+    width: 200px; 
+    position: absolute;
+    top: 230px;
+    left: 370px;
+    background-color:#E19CB5;
+}
+.heading{
+    font-family: "Bagel Fat One", "Serif";
+    text-align: center;
+    margin-bottom: 2px;
+}
+.para {
+    font-family: "Shrikhand",  "Bagel Fat One", "Serif";
+    font-size: 12px;
+    margin: 0px;
+    margin-left: 5px;
+}
+.about-me-note{
+    height: 200px;
+    width: 200px; 
+    position: absolute;
+    top: 250px;
+    left: 750px;
+    background-color:#C2E4F8;
+}
+.about-me-note-back{
+    height: 200px;
+    width: 200px; 
+    position: absolute;
+    top: 230px;
+    left: 770px;
+    background-color:#79CAFA;
+}
+
+
+.headers{
+    right: 40;
+    text-align: center;
+    margin-left: 70px;
+    font-size: 70px;
+    font-family: "Bagel Fat One", "Serif";
+    color: #003C6B;
+}
+.box{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    height: 200px;
+    width: 1000px; 
+    background-color: #E19CB5;
+}
+
+.about-para{
+    padding: 5px;
+    font-size: 18px;
+}
+
+.about-note-back{
+    position: absolute;
+    top: 400px;
+    left: 150px;
+}
+.about-note{
+    position: absolute;
+    top: 420px;
+    left: 130px;
+    height: 200px;
+}
+
+.about-links{
+    margin-top:300px;
+    margin-left: 600px;
+    margin-bottom: 40px;
+}
+
+
+
+
+.back{
+    background-color: rgba(255,255,255,0.5);
+    height:360px;
+    margin-bottom: 30px;
+    width: 95%;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.pinkBox{
+    height: 80px;
+    width: 20%;
+    margin: 20px;
+    background-color: #FFC1D7;
+    display: inline-block;
+    font-family: "Anton";
+    color: #B41C6E;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.yellowBox{
+    height: 80px;
+    width: 20%;
+    margin: 20px;
+    background-color: #FFFBC3;
+    display: inline-block;
+    font-family: "Anton";
+    color: #B8AC00;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.blueBox{
+    height: 80px;
+    width: 20%;
+    margin: 20px;
+    background-color: #C2E4F8;
+    display: inline-block;
+    font-family: "Anton";
+    color: #009CFD;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.purpleBox{
+    height: 80px;
+    width: 20%;
+    margin: 20px;
+    background-color: #CED0FF;
+    display: inline-block;
+    font-family: "Anton";
+    color: #8186FF;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 10px;
+    font-size: 20px;
+}

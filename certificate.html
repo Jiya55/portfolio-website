@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Bagel Fat One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Shrikhand' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body class="bg">
+    <h1 class="headers">My Certificates</h1>
+    <!--<img class='arrow-left' src="_3466348.png">
+    <img src="c:\Users\jiyak\OneDrive\Desktop\my folder\CERTIFICATES\application-development-using-microservices-and-ser.png" class="certificate">
+    <img class='arrow-right' src="_3466348.png">-->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides">
+          <img src="cert1.png" class="certificate">
+        </div>
+      
+        <div class="mySlides">
+            <img src="cert2.png" class="certificate">
+        </div>
+      
+        <div class="mySlides">
+            <img src="cert3.png" class="certificate">
+        </div>
+        <div class="mySlides">
+            <img src="cert4.png" class="certificate">
+          </div>
+        
+          <div class="mySlides">
+              <img src="cert5.png" class="certificate">
+          </div>
+        
+          <div class="mySlides">
+              <img src="cert6.png" class="certificate">
+          </div>
+          <div class="mySlides">
+            <img src="cert7.png" class="certificate">
+          </div>
+        
+          <div class="mySlides">
+              <img src="cert8.png" class="certificate">
+          </div>
+        
+          <div class="mySlides">
+              <img src="cert9.png" class="certificate">
+          </div>
+          <div class="mySlides">
+              <img src="cert10.png" class="certificate">
+            </div>
+          
+            <div class="mySlides">
+                <img src="cert11.png" class="certificate">
+            </div>
+          
+            <div class="mySlides">
+                <img src="cert12.png" class="certificate">
+            </div>
+            <div class="mySlides">
+                <img src="cert13.png" class="certificate">
+              </div>
+            
+              <div class="mySlides">
+                  <img src="cert14.png" class="certificate">
+              </div>
+            
+              <div class="mySlides">
+                  <img src="cert15.png" class="certificate">
+              </div>
+              <div class="mySlides">
+                  <img src="cert16.png" class="certificate">
+                </div>
+              
+                <div class="mySlides">
+                    <img src="cert17.png" class="certificate">
+                </div>
+              
+                <div class="mySlides">
+                    <img src="cert18.png" class="certificate">
+                </div>
+                <div class="mySlides">
+                  <img src="cert19.png" class="certificate">
+                </div>
+              
+                <div class="mySlides">
+                    <img src="cert20.png" class="certificate">
+                </div>
+              
+                <div class="mySlides">
+                    <img src="cert21.png" class="certificate">
+                </div>
+                <div class="mySlides">
+                    <img src="cert22.png" class="certificate">
+                  </div>
+                
+                  <div class="mySlides">
+                      <img src="cert23.png" class="certificate">
+                  </div>
+                
+                  <div class="mySlides">
+                      <img src="cert24.png" class="certificate">
+                  </div>
+                  <div class="mySlides">
+                    <img src="cert25.png" class="certificate">
+                </div>
+                <div class="mySlides">
+                    <img src="cert26.png" class="certificate">
+                  </div>
+                
+                  <div class="mySlides">
+                      <img src="cert27.png" class="certificate">
+                  </div>
+                
+                  <div class="mySlides">
+                      <img src="cert28.png" class="certificate">
+                  </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)"><img class='arrow-left' src="_3466348.png"></a>
+        <a class="next" onclick="plusSlides(1)"><img class='arrow-right' src="_3466348.png"></a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+
+      <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+            showSlides(slideIndex += n);
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+            showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            }
+      </script>
+</html>
